@@ -1,0 +1,44 @@
+; cPanel first:78.0.38 (update_time):1568328387 Cpanel::ZoneFile::VERSION:1.3 hostname:gator4166.hostgator.com latest:78.0.38
+; Zone file for artificial--intelligence.site
+$TTL 14400
+artificial--intelligence.site.	86400	IN	SOA	ns8331.hostgator.com.	root.gator4166.hostgator.com.	(
+						2019091202 ;Serial Number
+						86400 ;refresh
+						7200 ;retry
+						3600000 ;expire
+						86400	)
+
+artificial--intelligence.site.	86400	IN	NS	ns8331.hostgator.com.
+artificial--intelligence.site.	86400	IN	NS	ns8332.hostgator.com.
+
+
+artificial--intelligence.site.	14400	IN	A	108.167.141.11
+
+localhost	14400	IN	A	127.0.0.1
+
+artificial--intelligence.site.	14400	IN	MX	0	mail.artificial--intelligence.site.
+
+mail	14400	IN	A	108.167.141.11
+www	14400	IN	CNAME	artificial--intelligence.site.
+ftp	14400	IN	CNAME	artificial--intelligence.site.
+
+cpanel	14400	IN	CNAME	artificial--intelligence.site.
+webmail	14400	IN	CNAME	artificial--intelligence.site.
+
+artificial--intelligence.site.	14400	IN	TXT	"v=spf1 a mx include:websitewelcome.com ~all"
+whm	14400	IN	A	108.167.141.11
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+autodiscover	14400	IN	A	108.167.141.11
+_carddav._tcp	14400	IN	SRV	0	0	2079	gator4166.hostgator.com.
+_carddav._tcp	14400	IN	TXT	path=/
+cpcontacts	14400	IN	A	108.167.141.11
+webdisk	14400	IN	A	108.167.141.11
+_caldav._tcp	14400	IN	SRV	0	0	2079	gator4166.hostgator.com.
+_caldav._tcp	14400	IN	TXT	path=/
+cpcalendars	14400	IN	A	108.167.141.11
+_carddavs._tcp	14400	IN	SRV	0	0	2080	gator4166.hostgator.com.
+_carddavs._tcp	14400	IN	TXT	path=/
+_caldavs._tcp	14400	IN	SRV	0	0	2080	gator4166.hostgator.com.
+_caldavs._tcp	14400	IN	TXT	path=/
+autoconfig	14400	IN	A	108.167.141.11
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApuiFIvapAJo2nTwiVn7CmGfmnIJ3Yr1gcA1I4IgVpqLU6Lmw//ubrlu+jOhIASPeWzCVAfsaHjSyiA9MtfNJkjiMij8Svkkn4MbgFT5WJ8N2JWuwVxiJgKpRKguYlGYf6MNcQttRcT6o4O1dPPhi7gB141N5EFx79Q2WjzFDq3SE4ojMqDXtEHSSOr2UdamVu" PBPDDEGtDm0lNQh5mZOhO8NBCzYPlTibcn0tDqjF+caBl8Tp9Z7f40PlfLbgaB29xpSz9A/QiUycd9yOu67yePxGMDcMRIQJlCaPgFB4iyiohbuB6czqjWqbsWU+CpkYbP276eNtsG2bdQmvWCiDwIDAQAB\;
