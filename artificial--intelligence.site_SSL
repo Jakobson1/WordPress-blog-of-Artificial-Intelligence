@@ -1,0 +1,18 @@
+--- 
+documentroot: /home4/jakobson/public_html
+group: jakobson
+hascgi: 1
+homedir: /home4/jakobson
+ip: 108.167.141.11
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@artificial--intelligence.site
+serveralias: mail.artificial--intelligence.site www.artificial--intelligence.site
+servername: artificial--intelligence.site
+ssl: 1
+usecanonicalname: 'Off'
+user: jakobson
+userdirprotect: ''

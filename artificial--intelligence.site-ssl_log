@@ -1,0 +1,8 @@
+54.201.128.117 - - [15/Sep/2019:08:01:28 -0500] "GET / HTTP/2.0" 301 - "-" "Go-http-client/2.0" artificial--intelligence.site 108.167.141.11
+54.201.128.117 - - [15/Sep/2019:08:01:29 -0500] "GET / HTTP/2.0" 200 11318 "-" "Go-http-client/2.0" www.artificial--intelligence.site 108.167.141.11
+69.171.251.20 - - [15/Sep/2019:07:15:23 -0500] "GET / HTTP/1.1" 301 - "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)" artificial--intelligence.site 108.167.141.11
+69.171.251.20 - - [15/Sep/2019:07:15:24 -0500] "GET / HTTP/1.1" 206 11318 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)" www.artificial--intelligence.site 108.167.141.11
+69.171.251.20 - - [15/Sep/2019:10:08:17 -0500] "GET / HTTP/1.1" 301 - "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)" artificial--intelligence.site 108.167.141.11
+69.171.251.20 - - [15/Sep/2019:10:08:18 -0500] "GET / HTTP/1.1" 206 11318 "-" "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)" www.artificial--intelligence.site 108.167.141.11
+52.12.177.184 - - [15/Sep/2019:14:05:51 -0500] "GET / HTTP/1.1" 301 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" artificial--intelligence.site 108.167.141.11
+52.12.177.184 - - [15/Sep/2019:14:05:52 -0500] "GET / HTTP/1.1" 200 11325 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" www.artificial--intelligence.site 108.167.141.11

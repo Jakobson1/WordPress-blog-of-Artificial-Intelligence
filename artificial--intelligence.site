@@ -1,9 +1,25 @@
------BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApuiFIvapAJo2nTwiVn7C
-mGfmnIJ3Yr1gcA1I4IgVpqLU6Lmw//ubrlu+jOhIASPeWzCVAfsaHjSyiA9MtfNJ
-kjiMij8Svkkn4MbgFT5WJ8N2JWuwVxiJgKpRKguYlGYf6MNcQttRcT6o4O1dPPhi
-7gB141N5EFx79Q2WjzFDq3SE4ojMqDXtEHSSOr2UdamVuPBPDDEGtDm0lNQh5mZO
-hO8NBCzYPlTibcn0tDqjF+caBl8Tp9Z7f40PlfLbgaB29xpSz9A/QiUycd9yOu67
-yePxGMDcMRIQJlCaPgFB4iyiohbuB6czqjWqbsWU+CpkYbP276eNtsG2bdQmvWCi
-DwIDAQAB
------END PUBLIC KEY-----
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/artificial--intelligence.site
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/artificial--intelligence.site-bytes_log
+documentroot: /home4/jakobson/public_html
+group: jakobson
+hascgi: 1
+homedir: /home4/jakobson
+ip: 108.167.141.11
+owner: root
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home4/jakobson/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@artificial--intelligence.site
+serveralias: mail.artificial--intelligence.site www.artificial--intelligence.site
+servername: artificial--intelligence.site
+usecanonicalname: 'Off'
+user: jakobson
